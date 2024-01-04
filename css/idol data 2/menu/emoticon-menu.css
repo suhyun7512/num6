@@ -1,0 +1,60 @@
+#emoticon-1 {
+    background-image:linear-gradient(158deg, #020406 0%, #0e101e 9%, #020406 15%, #1e1e2e 47.5%, #eeeeee 48%, #1e1e2e 48.5%, #000000 50%, #1e1e2e 51.5%, #eeeeee 52%, #1e1e2e 52.5%, #020406 85%, #0e1a1e 91%, #020406 100%);
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    font-family: "Raleway";
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    border-radius: 15px;
+}
+
+.emoticon-link-1 {
+    transition: 0.3s ease;
+    background: #00000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 4px solid #00000000;
+    border-bottom: 4px solid #00000000;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.emoticon-link-1:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0; 
+}
+
+.emoticon-link-1.active {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
+
+.emoticon-site-1,
+.emoticon-site-2,
+.emoticon-site-3 {
+    display: none;
+}
+
+.emoticon-site-1.active {
+    display: block;
+}
+
+.emoticon-site-2.active {
+    display: block;
+}
+
+.emoticon-site-3.active {
+    display: block;
+}
+
+
+
+
+.emoticon-detail{
+    width: 500px;
+}

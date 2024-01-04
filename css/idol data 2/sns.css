@@ -1,0 +1,123 @@
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sns-div {
+  margin-top: 50px;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+}
+
+.sns-wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.sns-wrapper .sns-icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sns-wrapper .-snstooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sns-wrapper .-snstooltip::before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sns-wrapper .sns-icon:hover .-snstooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.sns-wrapper .sns-icon:hover span,
+.sns-wrapper .sns-icon:hover .-snstooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sns-wrapper .tiktok:hover,
+.sns-wrapper .tiktok:hover .-snstooltip,
+.sns-wrapper .tiktok:hover .-snstooltip::before {
+  background: #1f141c;
+  color: #ffffff;
+}
+
+.sns-wrapper .twitter:hover,
+.sns-wrapper .twitter:hover .-snstooltip,
+.sns-wrapper .twitter:hover .-snstooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.sns-wrapper .instagram:hover,
+.sns-wrapper .instagram:hover .-snstooltip,
+.sns-wrapper .instagram:hover .-snstooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.sns-wrapper .twitch:hover,
+.sns-wrapper .twitch:hover .-snstooltip,
+.sns-wrapper .twitch:hover .-snstooltip::before {
+  background: #9146FF;
+  color: #ffffff;
+}
+
+.sns-wrapper .youtube:hover,
+.sns-wrapper .youtube:hover .-snstooltip,
+.sns-wrapper .youtube:hover .-snstooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+.sns-div {
+  position: relative;
+}
+
+.sns-sub-div {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width:94%;
+  margin-top: 30px;
+}

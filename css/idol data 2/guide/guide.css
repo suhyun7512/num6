@@ -1,0 +1,564 @@
+.guide-div{
+    width: 60%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+.guide-color{
+    background-color: rgba( 0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.guide-index {
+    position: relative;
+    z-index: 1; 
+    color: #fff; 
+    display: flex; 
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.guide-index ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.guide-index li {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.guide-img{
+    background-image: url('./유입가이드-CONTENTS.PNG');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+    position: absolute;
+}
+
+.guide-main{
+    background-color: #efefef; width: 94%; margin-top: 10px; border-radius: 50px; height: 100px; font-size: 42px; font-weight: 900; text-align: center; justify-content: center; align-items: center; vertical-align: middle; display: flex; box-shadow: 5px 5px 10px #fff
+}
+
+@media ( max-width: 1000px) {
+    .guide-main{
+        font-size: 32px;
+    }
+    .guide-index li{
+        font-size: 30px;
+    }
+}
+
+@media ( max-width: 700px) {
+    .guide-index li{
+        font-size: 24px;
+    }
+}
+
+@media ( max-width: 600px) {
+    .guide-main{
+        font-size: 24px;
+    }
+}
+
+@media ( max-width: 500px) {
+    .guide-index li{
+        font-size: 20px;
+    }
+}
+
+@media ( max-width: 400px) {
+    .guide-index li{
+        font-size: 18px;
+    }
+}
+
+.CONTENTS{
+    letter-spacing:40px;font-size: 30px; font-weight: 900; margin-top: 50px;
+}
+
+.guide-main-p{
+    color:#fff; font-size: 52px; font-weight: 500; margin-right: 5%;
+  }
+
+.guide-sub-p{
+    color:#fff; font-size: 27px; font-weight: 100; margin-right: 5%;
+}
+
+.guide-sub-p-1{
+    color:#fff; font-size: 16px; font-weight: 600; margin-right: 5%;
+}
+
+.font-32-24{
+    font-size: 32px;
+}
+
+.guide-sing-channel-div{
+    align-items: center; text-align: left; width: auto;
+}
+
+@media ( max-width: 1000px) {
+    .font-32-24{
+        font-size: 24px;
+    }
+}
+
+@media ( max-width: 550px) {
+    .font-32-24{
+        font-size: 18px;
+    }
+}
+
+@media ( max-width: 1400px) {
+    .guide-sub-p-1{
+        font-size: 14px;
+    }
+}
+
+@media ( max-width: 1250px) {
+    .guide-sub-p-1{
+        font-size: 12px;
+    }
+}
+
+@media ( max-width: 880px) {
+    .guide-sub-p-1{
+        font-size: 10px;
+    }
+}
+
+@media ( max-width: 690px) {
+    .guide-sub-p-1{
+        font-size: 12px;
+        height: 60px;
+    }
+}
+
+@media ( max-width: 600px) {
+    .guide-sub-p-1{
+        font-size: 10px;
+        height: 60px;
+    }
+}
+
+@media ( max-width: 499px) {
+    .guide-sing-channel-div{
+        align-items: center; text-align: left; width: 220px;
+    }
+} 
+
+@media ( max-width: 450px) {
+    .guide-sub-p-1{
+        font-size: 14px;
+        height: 60px;
+    }
+    .guide-sing-channel-div{
+        align-items: center; text-align: left; width: 205px;
+    }
+}
+
+@media ( max-width: 430px) {
+    .guide-sing-channel-div{
+        align-items: center; text-align: left; width: 170px;
+    }
+}
+
+@media ( max-width: 377px) {
+    .guide-sing-channel-div{
+        align-items: center; text-align: left; width: 140px;
+    }
+}
+
+@media ( max-width: 320px) {
+    .guide-sing-channel-div{
+        align-items: center; text-align: left; width: 100px;
+    }
+}
+
+@media ( max-width: 1500px ) {
+    .guide-main-p{
+        font-size: 32px;
+    }
+    
+    .guide-sub-p{
+        font-size: 24px;
+    }
+}
+
+@media ( max-width: 1070px ) {
+    .CONTENTS{
+        letter-spacing:30px;
+    }
+
+    .guide-main-p{
+        font-size: 28px;
+    }
+    
+    .guide-sub-p{
+        font-size: 20px;
+    }
+}
+
+@media ( max-width: 700px ) {
+    .CONTENTS{
+        letter-spacing:20px;
+    }
+    .guide-main-p{
+        font-size: 24px;
+    }
+    
+    .guide-sub-p{
+        font-size: 18px;
+    }
+}
+
+.guide-ine{
+    width: 70%;
+    background-color: #FDFBFE;
+}
+
+.guide-jbg{
+    width: 70%;
+    background-color: #fefefb;
+}
+
+.guide-lp{
+    width: 70%;
+    background-color: #fbfbfe;
+}
+
+.guide-jrr{
+    width: 70%;
+    background-color: #fcfbfe;
+}
+
+.guide-gsg{
+    width: 70%;
+    background-color: #fbfefe;
+}
+
+.guide-vc{
+    width: 70%;
+    background-color: #fbfefb;
+}
+
+@media ( max-width: 1200px ){
+    .guide-ine{
+        width: 75%;
+    }
+
+    .guide-jbg{
+        width: 75%;
+    }
+    .guide-lp{
+        width: 75%;
+    }
+    
+    .guide-jrr{
+        width: 75%;
+    }
+    
+    .guide-gsg{
+        width: 75%;
+    }
+    
+    .guide-vc{
+        width: 75%;
+    }
+}
+
+@media ( max-width: 1000px ){
+    .guide-ine{
+        width: 80%;
+    }
+
+    .guide-jbg{
+        width: 80%;
+    }
+    .guide-lp{
+        width: 80%;
+    }
+    
+    .guide-jrr{
+        width: 80%;
+    }
+    
+    .guide-gsg{
+        width: 80%;
+    }
+    
+    .guide-vc{
+        width: 80%;
+    }
+}
+
+@media ( max-width: 800px ){
+    .guide-ine{
+        width: 90%;
+    }
+
+    .guide-jbg{
+        width: 90%;
+    }
+    .guide-lp{
+        width: 90%;
+    }
+    
+    .guide-jrr{
+        width: 90%;
+    }
+    
+    .guide-gsg{
+        width: 90%;
+    }
+    
+    .guide-vc{
+        width: 90%;
+    }
+}
+
+@media ( max-width: 600px ){
+    .guide-ine{
+        width: 95%;
+    }
+
+    .guide-jbg{
+        width: 95%;
+    }
+    .guide-lp{
+        width: 95%;
+    }
+    
+    .guide-jrr{
+        width: 95%;
+    }
+    
+    .guide-gsg{
+        width: 95%;
+    }
+    
+    .guide-vc{
+        width: 95%;
+    }
+}
+
+.guide-ine-sub{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),url('./img-아이네.JPG');
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    text-align: right;
+}
+
+.guide-jbg-sub{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),url('./img-징버거.PNG');
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    text-align: right;
+}
+
+.guide-lp-sub{
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)), url('./img-릴파.PNG');
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    text-align: right;
+}
+
+.guide-jrr-sub{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),url('./img-주르르.PNG');
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    text-align: right;
+}
+
+.guide-gsg-sub{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),url('./img-고세구.JPG');
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    text-align: right;
+}
+
+.guide-vc-sub{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),url('./img-비챤.PNG');
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    text-align: right;
+}
+
+.guide-table tr td{
+    text-align: left;
+}
+
+.guide-main-div{
+    border-bottom: 5px solid #fff;
+    height: 120px;
+    width: 46.2%;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
+.guide-main-div svg{
+    width: 72px;
+    height: 72px;
+    fill: rgba(255, 255, 255, 1);
+}
+
+.guide-table-th{
+    padding: 5px 10px; font-size: 24px; font-weight: 900;
+}
+
+.guide-table-td{
+    font-size: 18px; font-weight: 400;
+}
+
+.guide-sing-p{
+    color: #000; font-size: 20px; font-weight: 900; margin-left: 15px; margin-top: 5%;
+}
+
+.guide-sing-p-1{
+    color: #000; font-size: 20px; font-weight: 900; margin-left: 20px; margin-top: 5%;
+}
+
+.guide-channel-p{
+    color: #7e7e7e; font-size: 20px; font-weight: 900; margin-left: 15px; margin-top: 5px;
+}
+
+.guide-channel-p-1{
+    color: #7e7e7e; font-size: 20px; font-weight: 900; margin-left: 20px; margin-top: 5px;
+}
+
+
+.guide-img-width img{
+    width: 200px;
+    height: auto;
+}
+
+.guide-img-width-1 img{
+    width: 200px;
+    height: auto;
+}
+
+.lyrics{
+    height: 330px; 
+    background-color: #cfcfcf; 
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.table-lyrics{
+    font-family: serif;
+}
+
+@media ( max-width: 1200px ){
+    .guide-sing-p{
+     font-size: 18px;
+     font-weight: 900;   
+    }
+}
+
+@media ( max-width: 1000px ){
+    .guide-sing-p{
+     font-size: 16px;
+     font-weight: 900;   
+    }
+
+    .guide-img-width-1 img{
+        width: 170px;
+        height: auto;
+    }
+}
+
+@media ( max-width: 800px ){
+    .guide-sing-p{
+     font-size: 14px;
+     font-weight: 900;   
+    }
+    .guide-table-th{
+        font-size: 16px; font-weight: 600;
+    }
+    .guide-channel-p{
+        color: #7e7e7e; font-size: 14px; font-weight: 500; margin-left: 15px; margin-top: 5px;
+    }
+    
+    .guide-channel-p-1{
+        color: #7e7e7e; font-size: 14px; font-weight: 500; margin-left: 20px; margin-top: 5px;
+    }
+}
+
+@media ( max-width: 600px ){
+    .guide-sing-p{
+        font-size: 12px;
+        font-weight: 900;   
+        margin-left: 7px;
+    }
+    .guide-channel-p{
+        margin-left: 7px;
+    }
+}
+
+@media ( max-width: 550px ){
+    .guide-main-div{
+        width: 65%;     
+    }
+}
+
+
+@media ( max-width: 470px ){
+    .guide-sing-p{
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: bold;   
+        margin-left: 3px;
+    }
+    .guide-channel-p{
+        margin-left: 3px;
+        font-weight: 900;
+    }
+    .guide-img-width-1 img{
+        width: 150px;
+        height: auto;
+    }
+}

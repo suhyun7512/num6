@@ -1,0 +1,221 @@
+#webtoon-1 {
+    background-image:linear-gradient(178deg, #cff1f5 0%, #cff1f5 23%, #c0cec7 25%, #c0cec7 38%, #c3a77b 55%, #eea13e 78.5%, #ee813e 100%);
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    font-family: "Raleway";
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 40%;
+    border-radius: 15px;
+}
+
+.webtoon-link-1 {
+    transition: 0.3s ease;
+    background: #00000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 4px solid #00000000;
+    border-bottom: 4px solid #00000000;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.webtoon-link-1:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0; 
+}
+
+.webtoon-link-1.active {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
+
+.webtoon-site-1,
+.webtoon-site-2 {
+    display: none;
+}
+
+.webtoon-site-1.active {
+    display: block;
+}
+
+.webtoon-site-2.active {
+    display: block;
+}
+
+.webtoon-p-1{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.webtoon-p-2{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.webtoon-detail{
+    width: 500px;
+    filter: drop-shadow(10px 10px 6px #111);
+}
+
+
+.webtoon-gif{ 
+    object-fit: contain; 
+    pointer-events: auto;
+    width: 500px;
+    height: 500px;
+    z-index: 5;
+    margin-bottom:25px;
+}
+
+
+
+.gif-container{
+    height:50px;
+}
+
+.fillter-b{
+    filter: blur(10px); 
+    overflow: hidden;
+    height: 3500px;
+}
+
+
+.webtoon-picture{
+    overflow: hidden; 
+    z-index: -1;
+    pointer-events: none;
+}
+
+#gif-image{
+    filter: drop-shadow(10px 10px 6px #111);
+    transform: translate(0,150px);
+    z-index: 10;
+    position: relative;
+}
+
+#gif-image-1{
+    filter: drop-shadow(10px 10px 6px #111);
+    transform: translate(0,150px);
+    z-index: 10;
+    position: relative;
+}
+
+.webtoon-site-2{
+    height: 10px;
+}
+
+.webtoon-logo-1{
+    margin-top: -30px;
+    width: 27%;
+    pointer-events: none;
+}
+
+.webtoon-logo-2{
+    margin-top: 25px;
+    z-index: 25;
+    width: 25%;
+    pointer-events: none;
+}
+
+#playButton{
+    margin-top: 30px;
+    padding: 10px 20px; 
+    background-color: #1e1e1e; 
+    width:35%; 
+    border-radius: 25px; 
+    color: #fff; 
+    cursor: pointer;
+}
+
+#playButton:hover{
+    background-color: #666666; 
+    cursor: pointer;
+}
+
+#playButton1{
+    padding: 10px 20px; 
+    background-color: #1e1e1e; 
+    width: 35%; 
+    border-radius: 25px; 
+    color: #fff; 
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#playButton1:hover{
+    background-color: #666666; 
+    cursor: pointer;
+}
+
+#playButton2{
+    padding: 10px 20px; 
+    background-color: #efefef; 
+    width: 35%; 
+    border-radius: 25px; 
+    color: #ffb039; 
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#playButton2:hover{
+    background-color: #000000; 
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+
+@media ( max-width: 1350px) {
+    #webtoon-1{
+        width:60%;
+    }
+}
+
+@media ( max-width: 900px) {
+    #webtoon-1{
+        width:70%;
+    }
+}
+
+@media ( max-width: 770px) {
+    #webtoon-1{
+        width:80%;
+    }
+    .webtoon-link-1{
+        margin: 0 10px;
+        font-size: 16px;
+    }
+}
+
+@media ( max-width: 620px) {
+    #webtoon-1{
+        width:85%;
+    }
+    .webtoon-link-1{
+        margin: 0 7px;
+        font-size: 14px;
+    }
+}
+
+@media ( max-width: 400px) {
+    #webtoon-1{
+        width:85%;
+    }
+    .webtoon-link-1{
+        margin: 0 2px;
+        font-size: 14px;
+        font-weight: 900;
+    }
+}

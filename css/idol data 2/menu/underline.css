@@ -1,0 +1,199 @@
+.underline-div {
+    font-family: system-ui, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline-nav {
+    position: relative;
+    white-space: nowrap;
+    background: white;
+    width: 94%;
+    padding: var(--underline-height) 0;
+    margin: 1em 0;
+    box-shadow: 0 1em 2em rgba(black, .05);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.underline {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 14.4%;
+    height: var(--underline-height);
+    width: 10%;
+    background: black;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    transition: transform var(--transition-duration) ease-in-out;
+    --underline-height: .5em;
+    --transition-duration: .5s;
+
+    &:nth-child(1) {
+        background: yellow;
+        transition: calc(var(--transition-duration) * .50);
+    }
+    &:nth-child(2) {
+        background: cyan;
+        transition: calc(var(--transition-duration) * 1.2);
+    }
+    &:nth-child(3) {
+        background: magenta;
+    }
+}
+
+.underline-a {
+    display: inline-block;
+    z-index: 10;
+    width: 10%;
+    padding: 1em 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    transition: 0.2s ease color;
+    margin-left: 5%;
+}
+
+.underline-a:hover {
+    color: rgb(73, 157, 252);
+    transition: 0.2s ease color;
+}
+
+.underline-a-1 {
+    display: inline-block;
+    z-index: 10;
+    width: 10%;
+    padding: 1em 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    transition: 0.2s ease color;
+}
+
+.underline-a-1:hover {
+    color: rgb(73, 157, 252);
+    transition: 0.2s ease color;
+}
+
+.underline-nav a:before,
+.underline-nav a:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+}
+
+.underline-nav a:before {
+    top: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.underline-nav a:after {
+    top: 15px;
+    width: 7px;
+    height: 7px;
+}
+
+.underline-nav a:nth-child(4):before {
+    background-color: rgb(255, 0, 0);
+    left: 16.5%;
+}
+
+.underline-nav a:nth-child(4):after {
+    background-color: rgb(255, 115, 0);
+    left: 17%;
+}
+
+.underline-nav a:nth-child(5):before {
+    background-color: #ffee00;
+    left: 32%;
+}
+
+.underline-nav a:nth-child(5):after {
+    background-color: #89ff00;
+    left: 32.5%;
+}
+
+.underline-nav a:nth-child(6):before {
+    background-color: rgb(0, 148, 71);
+    left: 47%;
+}
+
+.underline-nav a:nth-child(6):after {
+    background-color: rgb(0, 255, 255);
+    left: 47.5%;
+}
+
+.underline-nav a:nth-child(7):before {
+    background-color: rgb(0, 0, 255);
+    left: 59%;
+}
+
+.underline-nav a:nth-child(7):after {
+    background-color: rgb(119, 0, 255);
+    left: 59.5%;
+}
+
+.underline-nav a:nth-child(8):before {
+    background-color: rgb(214, 127, 255);
+    left: 78%;
+}
+
+.underline-nav a:nth-child(8):after {
+    background-color: rgb(211, 0, 193);
+    left: 78.5%;
+}
+
+.underline-nav a:hover:before,
+.underline-nav a:hover:after {
+    transform: scale(1);
+
+}
+
+
+
+@media ( max-width: 1280px ) {
+    .underline-a{
+        font-size: 20px; 
+    }
+    .underline-a-1{
+        font-size: 20px; 
+    }
+}
+
+@media ( max-width: 1000px ) {
+    .underline-a{
+        font-size: 18px; 
+    }
+    .underline-a-1{
+        font-size: 18px; 
+    }
+}
+
+@media ( max-width: 800px ) {
+    .underline-a{
+        font-size: 16px; 
+        margin-right: 4%;
+    }
+    .underline-a-1{
+        font-size: 16px; 
+    }
+}
+
+@media ( max-width: 600px ) {
+    .underline-a{
+        font-size: 14px; 
+        margin-right: 3%;
+    }
+    .underline-a-1{
+        font-size: 14px; 
+    }
+}

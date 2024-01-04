@@ -1,0 +1,571 @@
+.webtoon-round-div-1{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-1:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-1{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-1{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-1{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+/*  */
+
+.webtoon-round-div-2{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-2:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-2{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-2{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-2{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+/*  */
+
+.webtoon-round-div-3{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-3:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-3{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-3{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-3{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+/*  */
+
+.webtoon-round-div-4{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-4:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-4{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-4{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-4{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+/*  */
+
+.webtoon-round-div-5{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-5:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-5{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-5{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-5{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+/*  */
+
+.webtoon-round-div-6{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-6:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-6{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-6{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-6{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+
+/*  */
+
+.webtoon-round-div-7{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-7:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-7{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-7{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-7{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+
+/*  */
+
+.webtoon-round-div-8{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-8:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-8{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-8{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-8{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+
+/*  */
+
+.webtoon-round-div-9{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-9:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-9{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-9{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-9{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+
+/*  */
+
+.webtoon-round-div-10{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-10:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-10{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-10{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-10{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+
+
+/*  */
+
+.webtoon-round-div-11{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-11:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-11{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-11{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-11{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+
+
+/*  */
+
+.webtoon-round-div-11{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-11:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-11{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-11{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-11{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+
+/*  */
+
+.webtoon-round-div-12{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-12:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-12{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-12{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-12{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+
+/*  */
+
+.webtoon-round-div-13{
+    border-radius: 10px; 
+    background-color:#161623; 
+    width: 240px; 
+    height: 240px; 
+    border: 2px solid #111; 
+    z-index: 400;
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-div-13:hover{
+    background-color:#242424; 
+    transition-duration: 0.3s;
+}
+
+.webtoon-round-img-13{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.webtoon-round-p-1-13{
+    font-size: 20px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-p-2-13{
+    font-size: 16px; 
+    color: #fff; 
+    text-align: left; 
+    position: relative; 
+    top: 10px; 
+    left: 20px;
+}
+
+.webtoon-round-td{
+    margin-left: 50px;
+}

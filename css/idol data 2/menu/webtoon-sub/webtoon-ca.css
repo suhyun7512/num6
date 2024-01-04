@@ -1,0 +1,50 @@
+.ca-container-custom {
+    background: #42e3ff00;
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    font-family: "Raleway";
+    width: 40%;
+    border-radius: 25px;
+}
+
+.ca-link-custom {
+    transition: 0.3s ease;
+    background: #42e3ff00;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 4px solid #42e3ff00;
+    border-bottom: 4px solid #42e3ff00;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.ca-link-custom:hover {
+    border-bottom: 4px solid #000000;
+    padding: 6px 0; 
+}
+
+.ca-link-custom.active {
+    border-bottom: 4px solid #000000;
+    padding: 6px 0;
+}
+
+.ca-content-custom,
+.ca-content-custom-2,
+.ca-content-custom-3 {
+    display: none;
+}
+
+.ca-content-custom.active {
+    display: block;
+}
+
+.ca-content-custom-2.active {
+    display: block;
+}
+
+.ca-content-custom-3.active {
+    display: block;
+}

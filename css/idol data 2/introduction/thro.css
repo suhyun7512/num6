@@ -1,0 +1,8 @@
+.thro-content {
+    display: none;
+    color: #fff;
+}
+
+.thro-content.active {
+    display: block;
+}

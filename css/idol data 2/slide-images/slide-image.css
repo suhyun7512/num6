@@ -1,0 +1,123 @@
+.main-slide-div{
+    width: 95%;
+    height: 800px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./main\ images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    display:flex;
+    transform: translateX(2.5%);
+    align-items:center;
+    border-radius: 5px;
+}
+
+.main-image-div-right{
+    width: 20%; 
+    height: 0;
+    border-left: 100px solid transparent; 
+    justify-self: left;
+    border-bottom: 800px solid white; 
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* filter: drop-shadow(-10px 0px 100px #0f0f0f); */
+}
+
+@media ( max-width: 780px ) {
+    .main-image-div-right{
+        display: none;
+    }
+}
+
+.slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    transform: translate(90px, 80px);
+    pointer-events: none;
+}
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 25s;
+    animation-duration: 25s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    float: left;
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+
+
+
+
+
+
+.custom-shape-divider-top-1701938506 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1701938506 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+}
+
+.custom-shape-divider-top-1701938506 .shape-fill {
+    fill: #0099ff;
+}
+
+
+
+
+
+/* @media screen and (max-width: 1919px) {
+
+} */

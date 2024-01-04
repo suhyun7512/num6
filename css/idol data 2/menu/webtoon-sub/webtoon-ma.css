@@ -1,0 +1,49 @@
+.ma-container-custom {
+    background: #42e3ff00;
+    padding: 24px;
+    text-align: center;
+    font-family: "Raleway";
+    width: 40%;
+    border-radius: 25px;
+}
+
+.ma-link-custom {
+    transition: 0.3s ease;
+    background: #42e3ff00;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 4px solid #42e3ff00;
+    border-bottom: 4px solid #42e3ff00;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.ma-link-custom:hover {
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0; 
+}
+
+.ma-link-custom.active {
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
+
+.ma-content-custom,
+.ma-content-custom-2,
+.ma-content-custom-3 {
+    display: none;
+}
+
+.ma-content-custom.active {
+    display: block;
+}
+
+.ma-content-custom-2.active {
+    display: block;
+}
+
+.ma-content-custom-3.active {
+    display: block;
+}
