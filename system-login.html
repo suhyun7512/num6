@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용자 관리 시스템</title>
+    <style>
+        button{
+            margin-left: 20px;
+            font-size: 14px;
+            padding: 0 5px;
+            cursor: pointer;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li{
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin-left: 150px; margin-top: 150px; border: 2px solid #000; width: 500px;">
+        <div style="margin-left: 10px;"> 
+            <h1 style="margin-bottom: 25px;">로그인 사용자 목록</h1>
+            <ul id="userList"></ul>
+            <button onclick="clearUsers()" style="margin-top: 25px; margin-bottom: 25px;">사용자 목록 삭제</button>
+        </div>
+    </div>
+
+
+    <script>
+        var users = JSON.parse(localStorage.getItem('users')) || [];
+
+        function updateUsersList() {
+            var userList = document.getElementById('userList');
+            userList.innerHTML = '';
+
+            users.forEach(function(user, index) {
+                var li = document.createElement('li');
+                li.textContent = 'ID: ' + user.username + ', PW: ' + user.password ;
+
+                var deleteButton = document.createElement('button');
+                deleteButton.textContent = '삭제';
+                deleteButton.onclick = function() {
+                    deleteUser(index);
+                };
+
+                li.appendChild(deleteButton);
+                userList.appendChild(li);
+            });
+        }
+
+        function deleteUser(index) {
+            var confirmation = confirm("정말로 이 사용자를 삭제하시겠습니까?");
+
+            if (confirmation) {
+                users.splice(index, 1);
+                localStorage.setItem('users', JSON.stringify(users));
+                updateUsersList();
+                alert('사용자가 삭제되었습니다.');
+            } else {
+                alert('사용자 삭제가 취소되었습니다.');
+            }
+        }
+
+        function clearUsers() {
+            var confirmation = confirm("정말로 모든 사용자 목록을 삭제하시겠습니까?");
+            
+            if (confirmation) {
+                localStorage.removeItem('users');
+                users = [];
+                updateUsersList();
+                alert('모든 사용자 목록이 삭제되었습니다.');
+            } else {
+                alert('사용자 목록 삭제가 취소되었습니다.');
+            }
+        }
+
+
+        updateUsersList();
+    </script>
+</body>
+</html>

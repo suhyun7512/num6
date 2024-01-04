@@ -1,0 +1,112 @@
+
+api-ranking:
+
+AIzaSyDVRJIsg5P2yW0_qMODG3dyzFaf_AQoO4Y
+
+
+api-thro:
+
+AIzaSyCe6eFZTQEV-2Ie5LTfumJ3CkrrvQ2aysU
+
+
+api-news:
+
+AIzaSyDk0ggt7-O0t6Hv7mcpvoMOLqdfkGxwYt8
+
+
+https://github.com/CodeCrafter11
+https://github.com/CodeCrafter11/css-projects/blob/main/animated-background/style.css
+https://github.com/DavidoMello/menu
+예비:
+
+spare
+AIzaSyCM8pQPzrwOfjMu5uLR7Aad7J8V2Uzstc8
+
+
+spare-2
+AIzaSyAOnZd_m1-5YFQzuV-lSWwP7DEKgTbZeaY
+
+
+
+
+Google
+id: apidata7512@gmail.com
+ps: psh070615@!
+
+Microsoft
+shdata7512@outlook.kr
+psh070615@!
+
+
+
+
+VcvMQ9MZhF8
+Empfi8q0aas
+sC7A7dLhjks
+fU8picIMbSk
+OTkFJyn4mvc
+kNPykP_9wOQ
+Kc85nOaqLwo
+TYB9ScXvq34
+21trg6DfzX8
+Brf3LWwNVTk
+
+마지막:
+
+AIzaSyASfrjWfCEAU0kLEOg4PGl9OpdmB0QuUV0
+
+AIzaSyCVFlyufTv2vVDCrc2H5-_nw1yWs5OJhhs
+
+AIzaSyCenOKCNpUuigTFIAtxusBcNyBcLZ2Czdo
+
+AIzaSyCJaFQotQkggPP_K7NHT8-F6PM4VQdltQk
+
+AIzaSyBr4yVHbEVDXNRvWyFacQijZCb64Yd79v4
+
+AIzaSyAPMa_AE8XhvVxhIouuLKsn9jmPh2FJ4rY
+
+AIzaSyCP83fuRQK1qXTsIMXk7ANjuY09xyigR1o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const channelIds1 = ['UCroM00J2ahCN6k-0-oAiDxg', 'UCHE7GBQVtdh-c1m3tjFdevQ', 'UC-oCJP9t47v7-DmsnmXV38Q', 'UCTifMx1ONpElK5x6B4ng8eg', 'UCV9WL7sW6_KjanYkUUaIDfQ','UCs6EwgxKLY9GG4QNUrP5hoQ'];
+
+const videoIds = [
+        // 전체 앨범
+        'rDFUl2mHIW4', 'wyhwJnNpVJI', 'i4SRH9jfUMQ','QgMFpuos4Rg','8KTFf2X-ago','fgSXAKsq-Vo','JY-gJkMuJ94',
+        // 아이네
+        'SXE-gIU3yJs','-in8F0zmLcM','YZoeO3T7hsc','7IcafhbXprU','YpCpF_CD2pM',
+        // 징버거
+        'kra0f71EIgc','qunpFTI90sU','p9TFQ9ySJLs','KjySNSxgg3U','wB4MB-UrVcc','Q0LWEyWI8-E','7E_cZ9eU3ZE','zjZpfpRkHJs','SQR0tzDvSVU','eWaBljLkd08','FeXN3_ub3oQ','tT-kuonVzfY',
+        // 릴파
+        '6hEvgKL0ClA','K-5WdjbCYnk','1UbyyaDc8x0','crvPldgKJIo','8tJb1YlMHfA','JwEEIHzZNuQ','oRiQHxft2mY','FAEARaip0rM','H02v7OU9Rtg','4ZjDoG0bc5Q','WS-bGFcPf9I','5tGwnxu8NIw',
+        // 주르르
+        'rFxJjpSeXHI','G0g3d6b5CZM','X7cO4xQ5Gqs','_OsnBqrh6yg','z6RSOiYOVuQ','-pczFfMtWrc','7sFIjj5BW3M','tc92ES3R6os','8kuevWdt01M',
+        // 고세구
+        'DPEtmqvaKqY','qZi1Xh0_8q4','SAJrAQGvOHE','uG91iq0AzKM','h5yU8WZsB9g','ZLQc1yuUOAM','Rclny6yachY','6GQV6lhwgNs',
+        //비챤 
+        '-imWu1Xwz1g','aLB9ttASxPI','xs4d6QjY03w','sP0E6y0gWxA','g0jprFO8S_M','iLXmqg_HHRA','7D8wnXs4zSU','nWJB1U7cQVs','fzHJxq37cqI','lLIpFxWtqCQ','NVns4yRoTlU',
+        // 단체 커버
+        "fU8picIMbSk",'OTkFJyn4mvc','kNPykP_9wOQ','Kc85nOaqLwo','TYB9ScXvq34','21trg6DfzX8','Brf3LWwNVTk',
+    
+        //test
+        '--Go33WYnqw','QLabzK9TKF8','Empfi8q0aas','jelNkU4mPuA','3XoZ8MsphNw','_klX8vJo4Co','mnX-cmDYCh0','gT3HKgVJuRQ','yPEDKgzG98k','WItY2T5zz1A','plO-C9aSwxs','xdvDs1Jgp6k',
+        'XMRzgnqVT5s','SVCSM6zHwYI','f0oaJDjphWg','epHCbFL36uU','_PJvRDp4S5s','suAKxhbbtVs','afP7Y_3Ote4','sC7A7dLhjks','Mn5ZwEFKBc4','pl38om066m0','7wubxhtPKQE','3q3RlwImdGU',
+        'lQIdaZgK56A','TQqu1ZsvVFo','N2Tj_FMqlX8',
+        
+        '4xZYZTWH0qk',
+    
+        '-rlfVyOHY3Y',
+
+];

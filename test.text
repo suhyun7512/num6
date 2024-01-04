@@ -1,0 +1,53 @@
+var audio = new Audio();
+
+// 볼륨 바 엘리먼트 선택
+var volumeBar = $("#volume-bar");
+var volumeProgress = $("#volume-progress");
+
+// 볼륨 바 클릭 시 볼륨 조절
+volumeBar.on("click", function (event) {
+  var volumeBarPos = volumeBar.offset();
+  var clickPos = event.clientX - volumeBarPos.left;
+  var volumeLevel = clickPos / volumeBar.outerWidth();
+  audio.volume = volumeLevel;
+  updateVolumeBar();
+});
+
+// 초기 로딩 시 볼륨 바 업데이트
+updateVolumeBar();
+
+// 볼륨 바 업데이트 함수
+function updateVolumeBar() {
+  var volumePercent = audio.volume * 100;
+  volumeProgress.width(volumePercent + "%");
+}
+
+
+<a target="_blank" href="">
+                    <div style="display: flex; background-color: #f4f4f4; margin-top: 5px; height: auto;">
+                      <div style="width:200px;">
+                        <img style="border-radius: 20px; padding: 7px;" width="100%" src="">
+                      </div>
+                      <div style="align-items: center; text-align: left;">
+                        <p style="color: #000; font-size: 20px; font-weight: 900; margin-left: 15px; margin-top: 5%;"></p>
+                        <p style="color: #7e7e7e; font-size: 20px; font-weight: 900; margin-left: 15px; margin-top: 5px;">징버거 JINGBURGER</p>
+                      </div>
+                    </div>
+                  </a>
+
+
+
+
+              <p style="font-size:42px; font-weight: 200; margin-top: 50px;">멤버 소개<span style="font-weight: bold; font-size: 54px;">&nbsp;&nbsp;01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+              <p style="font-size:42px; font-weight: 200;"><span style="font-weight: bold; font-size: 54px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02&nbsp;&nbsp;</span>앨범 소개</p>
+              <p style="font-size:42px; font-weight: 200;">콘서트 소개<span style="font-weight: bold; font-size: 54px;">&nbsp;&nbsp;03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+              <p style="font-size:42px; font-weight: 200;"><span style="font-weight: bold; font-size: 54px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04&nbsp;&nbsp;</span>밈 가이드</p>
+              <p style="font-size:42px; font-weight: 200;">커버곡 목록<span style="font-weight: bold; font-size: 54px;">&nbsp;&nbsp;05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+              <p style="font-size:42px; font-weight: 200;"><span style="font-weight: bold; font-size: 54px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;06&nbsp;&nbsp;</span>합방 목록</p>
+
+                            <p style="font-size:42px; font-weight: 200; margin-top: 50px;">멤버 소개<span style="font-weight: bold; font-size: 54px; margin-right: 220px;">&nbsp;&nbsp;01</span></p>
+              <p style="font-size:42px; font-weight: 200;"><span style="font-weight: bold; font-size: 54px; text-align: center;">02&nbsp;&nbsp;</span>앨범 소개</p>
+              <p style="font-size:42px; font-weight: 200;">콘서트 소개<span style="font-weight: bold; font-size: 54px; margin-right: 260px;">&nbsp;&nbsp;03</span></p>
+              <p style="font-size:42px; font-weight: 200;"><span style="font-weight: bold; font-size: 54px; margin-left: 220px;">04&nbsp;&nbsp;</span>밈 가이드</p>
+              <p style="font-size:42px; font-weight: 200;">커버곡 목록<span style="font-weight: bold; font-size: 54px; margin-right: 260px;">&nbsp;&nbsp;05</span></p>
+              <p style="font-size:42px; font-weight: 200;"><span style="font-weight: bold; font-size: 54px; margin-left: 220px;">06&nbsp;&nbsp;</span>합방 목록</p>

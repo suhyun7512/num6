@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Text Example</title>
+    <style>
+        /* 추가적인 스타일링은 여기에 작성할 수 있습니다. */
+    </style>
+</head>
+<body>
+
+    <p id="responsiveText">
+        이 내용은 미디어 쿼리가 적용되면 수정됩니다.
+    </p>
+
+    <script>
+        // JavaScript로 미디어 쿼리 감지
+        const mediaQuery = window.matchMedia('(max-width: 690px)');
+
+        // 초기 화면 크기에 따라 즉시 실행
+        handleMediaQuery(mediaQuery);
+
+        // 미디어 쿼리 변경 감지 시 이벤트 처리
+        mediaQuery.addListener(handleMediaQuery);
+
+        // 미디어 쿼리에 따라 내용 수정하는 함수
+        function handleMediaQuery(query) {
+            const responsiveText = document.getElementById('responsiveText');
+
+            if (query.matches) {
+                // 화면이 690px 이하일 때의 처리
+                responsiveText.innerText = '화면이 작아서 수정된 내용입니다.';
+            } else {
+                // 화면이 690px 초과일 때의 처리
+                responsiveText.innerText = '이 내용은 미디어 쿼리가 적용되면 수정됩니다.';
+            }
+        }
+    </script>
+</body>
+</html>

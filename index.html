@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 및 회원 가입 시스템</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        var users = [];
+
+        function register() {
+            var usernameInput = document.getElementById("regUsername").value;
+            var passwordInput = document.getElementById("regPassword").value;
+
+            if (users.some(u => u.username === usernameInput)) {
+                alert("이미 존재하는 사용자 이름입니다.");
+            } else {
+                users.push({ username: usernameInput, password: passwordInput });
+                alert("회원 가입이 완료되었습니다.");
+            }
+
+            document.getElementById("regForm").reset();
+        }
+
+        function login() {
+            var usernameInput = document.getElementById("loginUsername").value;
+            var passwordInput = document.getElementById("loginPassword").value;
+
+            var user = users.find(u => u.username === usernameInput);
+
+            if (user && user.password === passwordInput) {
+                alert("로그인 성공!");
+            } else {
+                alert("로그인 실패. 사용자 이름 또는 비밀번호가 올바르지 않습니다.");
+            }
+
+            document.getElementById("loginForm").reset();
+        }
+    </script>
+</head>
+<body>
+    <h2>로그인 및 회원 가입 시스템</h2>
+    
+    <form id="regForm">
+        <h3>회원 가입</h3>
+        <label for="regUsername">사용자 이름:</label>
+        <input type="text" id="regUsername" name="regUsername" required><br>
+
+        <label for="regPassword">비밀번호:</label>
+        <input type="password" id="regPassword" name="regPassword" required><br>
+
+        <button type="button" onclick="register()">회원 가입</button>
+    </form>
+
+    <form id="loginForm">
+        <h3>로그인</h3>
+        <input type="text" id="loginUsername" name="loginUsername" placeholder="아이디 입력" required><br>
+
+        <input type="password" id="loginPassword" name="loginPassword" placeholder="비밀번호 입력" required><br>
+
+        <button type="button" onclick="login()">로그인</button>
+    </form>
+</body>
+</html>
